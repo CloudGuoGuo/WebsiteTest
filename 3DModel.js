@@ -19,7 +19,7 @@ controls.enableZoom = true;
 
 // Load GLB model
 var loader = new THREE.GLTFLoader();
-var modelPath = 'Assets\train.glb';
+var modelPath = 'Assets/train.glb';
 
 loader.load(modelPath, function (gltf) {
      var model = gltf.scene;
